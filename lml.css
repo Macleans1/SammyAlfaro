@@ -1,0 +1,71 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f4f6f9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+  }
+
+  .share-buttons {
+	display: flex;
+	gap: 10px;
+  }
+
+  .share-button {
+	align-items: center;
+	gap: 8px;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	font-size: 14px;
+	font-weight: bold;
+	transition: background-color 0.3s ease;
+  }
+
+  .share-button.twitter {
+	background-color: #1DA1F2;
+  }
+
+  .share-button.twitter:hover {
+	background-color: #0d8adf;
+  }
+
+  .share-button.facebook {
+	background-color: #4267B2;
+  }
+
+  .share-button.facebook:hover {
+	background-color: #365899;
+  }
+
+  .share-button.linkedin {
+	background-color: #0077B5;
+  }
+
+  .share-button.linkedin:hover {
+	background-color: #005983;
+  }
+
+  .share-button.reddit {
+	background-color: #FF4500;
+  }
+
+  .share-button.reddit:hover {
+	background-color: #e03c00;
+  }
+
+  .share-button.telegram {
+	background-color: #FFCC00;
+	color: #333;
+  }
+
+  .share-button.telegram:hover {
+	background-color: #d6ad00;
+  }
+
+  .share-button i {
+	font-size: 16px;
+  }
